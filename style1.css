@@ -1,0 +1,289 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+#red
+{
+    font-family: "M PLUS Rounded 1c";
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+nav a{
+    color:black;
+    padding: 2px 1em;
+    text-decoration: none;
+    display: block;
+}
+nav ul {
+    border:1px solid #000000;
+    background-color: white;
+    margin: 0;
+    padding-left: auto;
+    padding-right: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover
+{
+    background-color: #696;
+    
+}
+@media screen and (max-width: 320px)
+{
+    nav ul {
+        flex-direction: column;
+    }
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    background-color: #eec;
+    margin: 2em auto;
+    padding: 1em auto;
+}
+@media screen and (min-width:800px)
+{
+    .container{
+        flex-direction: row;
+    }
+    main{
+        flex: 1 1 auto;
+    }
+}
+p{
+    font-size: 16px;
+    text-indent: 1em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 0.1em;
+}
+h2{
+    border-bottom: 5px solid#D7EEFF;
+}
+header
+{
+    border-bottom: 5px solid#D7EEFF;
+}
+body
+{
+    background-color: #F5F5DC;
+}
+
+section img {
+    width: 40%;
+    min-width: 120px;
+    max-width: 480px;
+    
+    margin :0 1em 1em 1em;
+}
+
+body main {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 800px;
+    border: 3px solid gainsboro;
+    background-color: white;
+}
+
+
+#firstly
+{
+    padding :50px;
+   margin: 20px 0px;
+}
+#outline
+{
+    padding :50px;
+   margin: 20px 0px;
+}
+#band
+{
+    padding :50px;
+   margin: 20px 0px;
+}
+#album
+{
+    padding :50px;
+   margin: 20px 0px;
+}
+#live
+{
+    padding :50px;
+   margin: 20px 0px;
+}
+#selection
+{
+    padding :50px;
+   margin: 20px 0px;
+}
+.move0{
+    display: block;
+    text-align: center;
+    
+}
+.move{
+    
+    text-align: center;
+    border:1px solid #000000;
+    background-color: white;
+    margin: 0;
+    padding-left: auto;
+    padding-right: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.border {
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.center{
+    text-align: center;
+}
+.center iframe{
+
+   margin: 0px auto; 
+   top: 0;
+   right: 0;
+   width: 480px;
+   height: 360px;
+}
+.tracklist{
+    display: block;
+    max-width: 120%;
+    width: auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0.2em;
+    font-size: 90%;
+    text-align: left;
+    
+}
+
+.title{
+    text-align: left;
+    background-color: #eee;
+    font-size: 111%;
+}
+.title1{
+    width: 2em;
+    padding-right: 0.3em;
+    white-space: nowrap;
+}
+.title2{
+   width:60%;
+  padding-left:0.9em;
+   white-space:nowrap;
+}
+tr{
+    background-color:#fff; 
+    vertical-align:top;
+}
+.inline{
+    background-color:#f7f7f7;
+     vertical-align:top;
+}
+td{
+    padding-left:0.5em; 
+    
+}
+.spotify{
+display: flex;
+justify-content: space-around;
+padding-left: 10px;
+}
+.spotify iframe{
+    
+   padding-right: 10px;
+    
+}
+
+
+
+#page_top{
+    width: 90px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    border: 3px solid red;
+    border-radius: 15px;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 60px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f062';
+    font-size: 25px;
+    color:red;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -25px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  #page_top a::after{
+    content: 'ページ上部へ';
+    font-size: 13px;
+    color: red;
+    position: absolute;
+    top: 38px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  #page-top {
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    background: #fff; 
+    color: #666; 
+    transition: .3s;
+}
+
+#page-top:hover {
+    background: #666; 
+    color: #fff; 
+}
+ ol {
+color: #364e96;
+  border: solid 3px #364e96;
+  border-radius: 0.5em;
+}
+.mark{
+    color: red;
+    font-weight: bold;
+}
+.mark2{
+    background: linear-gradient(transparent 70%,#FFFF55 70%);
+}
+.move:hover
+{
+    background-color: #696;
+    
+}
+.naka{
+    text-align: center;
+}
