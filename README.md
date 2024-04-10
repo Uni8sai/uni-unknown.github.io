@@ -1,1 +1,1 @@
-# uni-unknown.github.io
+# B1後期のWeb制作ゼミで作ったBonJoviの紹介ページ
